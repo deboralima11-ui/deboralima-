@@ -1,14 +1,24 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <style>
+        header{
+            background-color: brown;
+        }
+    </style>
 </head>
 <body> 
+     <header>
     <h1>Meu blog de serie: Teen Wolf</h1>
     <p>Venha comigo conhecer esta serie muito cativante!</p> 
-        
+     </header>  
+     <main>
     <h2>Meu primeiro post</h2>
+    <p>Por: Debora Pereira de Lima.</p>
+    <p>Boas-vindas ao meu novo blog! Aqui vou compatilhar a historia e curiosidades sobre a serie de Teen wolf.</p>
+     </main>
 </body>
 </html>
