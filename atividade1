@@ -12,7 +12,7 @@
             max-width:800px;
             margin: 0 auto;
             padding:16px;
-            border:5px solid #55a061;
+            border:5px solid #131413;
         }
         main{
             background-color:#000000;
@@ -20,10 +20,14 @@
             max-width:800px;
             margin: 0 auto;
             padding:16px;
+            display: flex;
         }
         img{
             width: 80px;
             height: 80px;
+        }
+        div p {
+            font-weight: bold;
         }
     </style>
 </head>
@@ -35,9 +39,11 @@
      <main>
         <img src="imagem-blog.png" alt="Logotipo circular em vermelho e preto para um blog da série Teen Wolf. Traz a silhueta preta de um lobo uivando para uma lua cheia,
         com os textos 'TEEN WOLF' em destaque e 'BLOG' logo abaixo em letras brancas.">
+        <div>
     <h2>Meu primeiro post</h2>
-    <p>Por: Debora Pereira de Lima.</p>
+    <p class="artigo-autor">Por: Debora Pereira de Lima.</p>
     <p>Boas-vindas ao meu novo blog! Aqui vou compatilhar a historia e curiosidades sobre a serie de Teen wolf.</p>
+    </div>
      </main>
 </body>
 </html>
