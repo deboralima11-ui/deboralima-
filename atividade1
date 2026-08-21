@@ -48,6 +48,6 @@
      </main>
 </body>
 <script>
-    const botao = 
+    const botao = document.querySelector("button");
 </script>
 </html>
