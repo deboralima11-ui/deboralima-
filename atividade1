@@ -43,12 +43,17 @@
     <h2>Meu primeiro post</h2>
     <p class="artigo-autor">Por: Debora Pereira de Lima.</p>
     <p>Boas-vindas ao meu novo blog! Aqui vou compatilhar a historia e curiosidades sobre a serie de Teen wolf.</p>
-    <button>🐺 <span>0</span></button>
+    <button>❤️<span>0</span></button>
+    <button>👍<span>0</span></button>
     </div>
      </main>
 </body>
 <script>
-    const botao = document.querySelector("button");
+    const botoes = document.querySelectorAll("button");
+
+    botoes.forEach(function ()
+
+    )
     botao,addEventListener("click", botaoClicado);
 
     function botaoClicado(){
