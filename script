@@ -1,34 +1,79 @@
-const botoes = document.querySelectorAll("button");
+:root {
+    --cor-primaria:#183c63; 
+    --cor-secundaria:#6594c7; 
+    --cor-fundo: #FFFFFF; 
+    --cor-texto: #030303; 
+    --cor-contraste: #fdfafa; 
+    --cor-botao: #fcf6f6; 
+} 
+  --fonte-texto:'Segoe UI', sans-serif;
 
-    botoes.forEach (function (botao){
-       let curtiu = false;
-         botao,addEventListener("click", botaoClicado);
-         function botaoClicado(){
-        console.log("fui clicado");
-        let texto = botao.querySelector("span");
-        if (curtiu === false){
-            texto.textContent++;
-            curtiu = true;
-        } else{
-            texto.textContent--;
-            curtiu = false;
-        }const botoes = document.querySelectorAll("button");
 
-    botoes.forEach (function (botao){
-       let curtiu = false;
-         botao,addEventListener("click", botaoClicado);
-         function botaoClicado(){
-        console.log("fui clicado");
-        let texto = botao.querySelector("span");
-        if (curtiu === false){
-            texto.textContent++;
-            curtiu = true;
-        } else{
-            texto.textContent--;
-            curtiu = false;
-        }
-      }
-      })
+.tema-escuro {
+      --cor-primaria:#a4ccf7; 
+    --cor-secundaria:#0e2135; 
+    --cor-fundo: #000000; 
+    --cor-texto: #ffffff; 
+    --cor-contraste: #272626; 
+    --cor-botao: #1d1c1c; 
+}
 
-      }
-      })
+.tema-escuro a {
+    color: var(--cor-secundaria);
+}
+
+.tema-escuro p {
+    color: var(--cor-texto);
+}
+
+.tema-escuro header p {
+    color: var(--cor-contraste);
+}
+
+body{
+    max-width: 100vw;
+    font-family: var(--fonte-texto);
+
+header { 
+    background-color:var(--cor-primaria); 
+    color: var(--cor-contraste); 
+    text-align: center;  
+    margin: 0 auto; 
+    padding: 16px; 
+    border: 5px; 
+} 
+
+main { 
+    background-color: var(--cor-fundo); 
+    margin:0 auto; 
+    padding: 16px; 
+    border: 5px solid gray; 
+
+    display:flex;
+    flex-wrap:wrap;
+} 
+article{ 
+display: flex; 
+
+border: 1px soledi var(--cor-texto);
+
+margin: 16px;
+gap: 16px;
+padding: 16px;
+
+flex: 1 1 30%;
+
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+} 
+
+img {
+     width: 80px; 
+     height: 80px; 
+    } 
+    
+    .artigo-autor { 
+        font-weight: bold; 
+    }
