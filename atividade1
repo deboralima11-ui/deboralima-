@@ -6,7 +6,7 @@
     <title>Blog</title>
    <link rel="stylesheet" href="style.css">
 </head>
-<body> 
+<body> clas="tema-escuro">
      <header>
     <h1>Meu blog de serie: Teen Wolf</h1>
     <p>Venha comigo conhecer esta serie muito cativante!</p> 
